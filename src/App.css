@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.banner {
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+}
+
+.banner--globe {
+  width: 3%;
+}
+
+.content {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.destination--img {
+  width: 120px;
+  height: 180px;
+  margin-right: 40px;
+}
+
+.destination--marker {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -150px;
+}
