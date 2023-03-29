@@ -64,3 +64,17 @@
   position: relative;
   top: -150px;
 }
+
+.destination--country {
+  display: inline-block;
+  position: relative;
+  top: -150px;
+  margin-left: 20px;
+}
+
+.destination--link {
+  display: inline-block;
+  position: relative;
+  top: -150px;
+  margin-left: 20px;
+}
