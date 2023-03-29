@@ -11,7 +11,8 @@ function Destination() {
         className="destination--marker"
         alt="marker"
       />
-      <p className="destination--title">Japan</p>
+      <p className="destination--country">Japan</p>
+      <p className="destination--link">View on Google Maps</p>
     </div>
   );
 }
