@@ -1,22 +1,22 @@
-function Destination() {
+function Destination(props) {
   return (
-    <div className="content">
+    <div className="destination">
+      <img src={props.item.img} className="destination--img" alt="Japan" />
       <img
-        src="https://source.unsplash.com/WLxQvbMyfas"
-        className="destination--img"
-        alt="Japan"
-      />
-      <img
-        src="https://source.unsplash.com/dXLnq8z8x4k"
+        src={require("../images/marker.png")}
         className="destination--marker"
         alt="marker"
       />
-      <p className="destination--country">Japan</p>
-      <p className="destination--link">View on Google Maps</p>
+      <p className="destination--country">{props.item.country}</p>
+      <a href={props.item.link} className="destination--link">
+        View on Google Maps
+      </a>
+      <h1 className="destination--title">{props.item.title}</h1>
+      <p className="destination--date">
+        <strong>{props.item.date}</strong>
+      </p>
+      <p className="destination--info">{props.item.info}</p>
     </div>
   );
 }
 export default Destination;
-
-//<img src="https://source.unsplash.com/JmuyB_LibRo" alt="Australia" />
-//<img src="https://source.unsplash.com/3PeSjpLVtLg" alt="Norway" />
